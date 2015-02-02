@@ -1,0 +1,63 @@
+body{
+	padding: 0px;
+	margin: 0 auto;
+	color: #000000;
+	overflow-x: hidden;
+}
+header{
+	width: 100%;
+	padding-top: 10px;
+	height: 50px;
+	position: fixed;
+	border: 1px dashed red;
+	font-size: 20px;
+	text-align: center;
+	background: url("../img/img1.jpg");
+	opacity: 0.8;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	border: 1px dashed green;
+	background: url("../img/img5.jpg") no-repeat;
+}
+section>div{
+	font-size: 50px;
+	padding: 100px;
+}
+footer{
+	width: 100%;
+	padding-top: 10px;
+	height: 50px;
+	border: 1px dashed blue;
+	font-size: 20px;
+	text-align: center;
+	background: url("../img/img1.jpg"); 
+}
+
+section.bgcolor::selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+section.bgcolor::-moz-selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
